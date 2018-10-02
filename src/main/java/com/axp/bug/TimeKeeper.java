@@ -1,15 +1,15 @@
 package com.axp.bug;
 
-public class BugExample {
+public class TimeKeeper {
 
     private int hours;
     private int minutes;
     private int seconds;
 
-    public BugExample(int hours, int minutes, int seconds) {
+    public TimeKeeper(int hours, int minutes, int seconds) {
         this.hours = hours;
         this.minutes = minutes;
-        seconds = seconds;
+        this.seconds = seconds;
     }
 
     public String getTime() {
